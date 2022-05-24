@@ -1,0 +1,41 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #303030;
+    font-family: 'Lato';
+}
+.box{
+    position: absolute;
+    height: 250px;
+    width: 500px;
+    background: #072747;
+    border-radius: 10px;
+}
+img{
+    height: auto;
+    width: 430px;
+    position: absolute;
+    left: 35px;
+    top: -30px;
+    transition: .5s;
+    border-radius: 10px;
+}
+img.active{
+    top: -230px;
+    transition: .5s;
+}
+.content{
+    padding: 60px;
+    margin-top: -5px;
+    h1{
+        color: #fff;
+        margin: 0px;
+    }
+    p{
+        color: #fff;
+        text-align: justify;
+        margin: 0px;
+    }
+}
